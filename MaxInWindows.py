@@ -14,4 +14,9 @@ class Solution:
             stack.append(i)
             if stack and i + 1 >= size:
                 res.append(num[stack[0]])
+            print( stack)
         return res
+
+s = Solution()
+res = s.maxInWindows([2,3,4,2,6,2,5,1], 3)
+print(res)
