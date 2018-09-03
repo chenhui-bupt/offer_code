@@ -29,9 +29,9 @@ class Solution(object):
                 else:  # x <= tails[m]
                     j = m
             tails[i] = x  # 因为原来的tails[i]肯定 >= x, 所以需要替换
+            print(tails, size)
             if i == size:
                 size += 1
-            print(tails)
         return size
 
     def lengthOfLIS3(self, nums):  # O(nlogn)
@@ -44,14 +44,16 @@ class Solution(object):
                     i = m + 1
                 else:  # x <= tails[m]
                     j = m
+            print(tails, x)
             if i == len(tails):
                 tails.append(x)
             else:
                 tails[i] = x  # 因为原来的tails[i]肯定 >= x, 所以需要替换
+            print(tails)
         return len(tails)
 
 
-nums = [4, 5, 6, 3]
+nums = [3,5,6,2,5,4,19,5,6,7,12]
 s = Solution()
 print("lengthOfLIS")
 print(s.lengthOfLIS(nums))
