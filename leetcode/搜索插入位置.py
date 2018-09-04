@@ -18,7 +18,10 @@ class Solution(object):
                 left = mid + 1
             else:
                 right = mid - 1
-        return left
+        if target < nums[left]:
+            return left
+        else:
+            return left + 1
 
 nums = [1, 3, 5, 6]
 target = 2
