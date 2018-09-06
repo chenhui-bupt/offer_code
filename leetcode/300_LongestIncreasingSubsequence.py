@@ -1,5 +1,9 @@
 """
 https://leetcode.com/problems/longest-increasing-subsequence/description/
+<<<<<<< HEAD
+=======
+
+>>>>>>> d967d2d693b36174263935cb8d00091fc38cb68e
 Given an unsorted array of integers, find the length of longest increasing subsequence.
 
 Example:
@@ -14,6 +18,7 @@ Your algorithm should run in O(n2) complexity.
 Follow up: Could you improve it to O(n log n) time complexity?
 """
 class Solution:
+<<<<<<< HEAD
     class Solution(object):
         def lengthOfLIS(self, nums):
             """
@@ -33,6 +38,8 @@ class Solution:
 
 
 class Solution(object):
+=======
+>>>>>>> d967d2d693b36174263935cb8d00091fc38cb68e
     def lengthOfLIS(self, nums):
         """
         :type nums: List[int]
@@ -40,6 +47,7 @@ class Solution(object):
         """
         if not nums:
             return 0
+<<<<<<< HEAD
         tails = []
         for i in range(len(nums)):
             left, right = 0, len(tails)
@@ -60,3 +68,14 @@ s = Solution()
 nums = [4,10,4,3,8,9]
 res = s.lengthOfLIS(nums)
 print(res)
+=======
+        dp = [0] * len(nums)
+        maxLen = 0
+        for i in range(len(nums)):
+            for j in range(i):
+                if nums[j] < nums[i] and dp[j] + 1 > dp[i]:
+                    dp[i] = dp[j] + 1
+                    maxLen = max(maxLen, dp[i])
+
+        return maxLen
+>>>>>>> d967d2d693b36174263935cb8d00091fc38cb68e
