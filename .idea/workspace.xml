@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcf89a56-0809-4318-ad01-1293aab6c60d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/n的阶乘二进制表示中最低位1的位置.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/n的阶乘尾部有多少个0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/同字母异序词.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/最少跳几次.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/最长公共子串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/最长公共子序列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/第K个素数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/第k个组合.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/能否跳过去.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/蓄水池抽样算法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/一个队列实现一个栈.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/两个栈实现一个队列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/树节点的公共祖先.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/排序数组中元素出现的起始位置.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/排序数组中元素出现的起止位置.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/搜索插入位置.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/搜索插入位置.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,15 +76,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="最长回文子串.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/最长回文子串.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="最少跳几次.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/最少跳几次.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,11 +94,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="蓄水池抽样算法.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="蓄水池抽样算法.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/蓄水池抽样算法.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="树节点的公共祖先.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/树节点的公共祖先.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="30_StackWithMin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/30_StackWithMin.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="09_QuequeWithTwoStacks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09_QuequeWithTwoStacks.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="两个栈实现一个队列.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/两个栈实现一个队列.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="一个队列实现一个栈.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/一个队列实现一个栈.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="2" column="71" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -139,29 +158,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="最长公共子串.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/最长公共子串.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="最长公共子序列.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/最长公共子序列.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="最小窗口子串.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/最小窗口子串.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="48" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -180,11 +176,13 @@
       <find>True</find>
       <find>2 3 3</find>
       <find>partial_match_table</find>
+      <find>queue1</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>]</replace>
       <replace>\t</replace>
+      <replace>queue</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -193,11 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03_DuplicateInArray.py" />
-        <option value="$PROJECT_DIR$/08_GetNext.py" />
-        <option value="$PROJECT_DIR$/sort/Sort.py" />
-        <option value="$PROJECT_DIR$/xiaozhao/ali_0807.py" />
-        <option value="$PROJECT_DIR$/xiaozhao/alibaba_test/DAG_deepcopy.py" />
         <option value="$PROJECT_DIR$/xiaozhao/alibaba_test/long.py" />
         <option value="$PROJECT_DIR$/xiaozhao/wangyi_youdao0327/塔.py" />
         <option value="$PROJECT_DIR$/leetcode/4_findMedianSortedArrays.py" />
@@ -244,6 +237,11 @@
         <option value="$PROJECT_DIR$/leetcode/n的阶乘二进制表示中最低位1的位置.py" />
         <option value="$PROJECT_DIR$/leetcode/最长公共子序列.py" />
         <option value="$PROJECT_DIR$/leetcode/蓄水池抽样算法.py" />
+        <option value="$PROJECT_DIR$/leetcode/树节点的公共祖先.py" />
+        <option value="$PROJECT_DIR$/leetcode/两个队列实现栈.py" />
+        <option value="$PROJECT_DIR$/leetcode/两个队列实现一个栈.py" />
+        <option value="$PROJECT_DIR$/leetcode/一个队列实现一个栈.py" />
+        <option value="$PROJECT_DIR$/leetcode/两个栈实现一个队列.py" />
       </list>
     </option>
   </component>
@@ -582,16 +580,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5114449" side_tool="true" weight="0.21509972" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48855507" visible="true" weight="0.24965517" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48855507" weight="0.24965517" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49427754" weight="0.6634483" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32551724" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20113085" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32551724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20113085" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -620,25 +617,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MaxInWindows.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/1_TwoSum.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/2_AddTwoNumbersOfLinkedList.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/3_LongestSubstringWithoutRepeatingChars.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/10_ContainerWithMostWater.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/72_EditDistance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -919,7 +897,34 @@
     <entry file="file://$PROJECT_DIR$/leetcode/蓄水池抽样算法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/树节点的公共祖先.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/30_StackWithMin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_QuequeWithTwoStacks.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/一个队列实现一个栈.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="2" column="71" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/两个栈实现一个队列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
