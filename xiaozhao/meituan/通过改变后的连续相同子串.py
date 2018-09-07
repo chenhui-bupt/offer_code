@@ -1,33 +1,8 @@
-# string s;
-# int n, k;
-# int deal(char a, char a1) // change a to a1
-# {
-#     int L = 0, R = 0, change = 0, ans = 1;
-#     for (int i = 0; i < n; i++)
-#     {
-#         if (s[i] == a)
-#         {
-#             if (change < k)
-#             {
-#                 change++;
-#                 R++;
-#             }
-#             else
-#             {
-#                 while (L <= R && s[L] != a) L++;
-#                 L++;
-#                 R++;
-#             }
-#         }
-#         else R++;
-#         ans = max(ans, R - L );
-#     }
-#     return ans;
-# }
-n, k = list(map(int, input().split()))
-s = input().split()
+
+# n, k = list(map(int, input().split()))
+# s = input().split()
 def helper(s):
-    l, r, change, ans = 0, 0, 0, 1
+    l, r, change, ans = 0, 0, 0, 1  # left为1的左边界处，right为1的右边界外，即[left, right)
     for i in range(n):
         if s[i] == '0':
             if change < k:
@@ -40,6 +15,7 @@ def helper(s):
                 r += 1
         else:
             r += 1
+        print(i, r)
         ans = max(ans, r - l)
     return ans
 
