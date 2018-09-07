@@ -17,29 +17,7 @@ There may be more than one LIS combination, it is only necessary for you to retu
 Your algorithm should run in O(n2) complexity.
 Follow up: Could you improve it to O(n log n) time complexity?
 """
-class Solution:
-<<<<<<< HEAD
-    class Solution(object):
-        def lengthOfLIS(self, nums):
-            """
-            :type nums: List[int]
-            :rtype: int
-            """
-            if not nums:
-                return 0
-            dp = [1] * len(nums)
-            maxLen = 0
-            for i in range(len(nums)):
-                for j in range(i):
-                    if nums[i] > nums[j] and dp[i] < dp[j] + 1:
-                        dp[i] = dp[j] + 1
-                maxLen = max(maxLen, dp[i])
-            return maxLen
-
-
 class Solution(object):
-=======
->>>>>>> d967d2d693b36174263935cb8d00091fc38cb68e
     def lengthOfLIS(self, nums):
         """
         :type nums: List[int]
@@ -47,35 +25,57 @@ class Solution(object):
         """
         if not nums:
             return 0
-<<<<<<< HEAD
+        dp = [1] * len(nums)
+        LIS = 1
+        for i in range(1, len(nums)):
+            for j in range(i):
+                if nums[i] > nums[j] and dp[i] < dp[j] + 1:
+                    dp[i] = dp[j] + 1
+            if LIS < dp[i]:
+                LIS = dp[i]
+        print(dp)
+        return LIS
+
+    def lengthOfLIS2(self, nums):  # O(nlogn)
+        tails = [0] * len(nums)
+        size = 0
+        for x in nums:
+            i, j = 0, size
+            while i != j:   # 二分查找找到左边界
+                m = (i + j) // 2
+                if tails[m] < x:
+                    i = m + 1
+                else:  # x <= tails[m]
+                    j = m
+            tails[i] = x  # 因为原来的tails[i]肯定 >= x, 所以需要替换
+            print(tails, size)
+            if i == size:
+                size += 1
+        return size
+
+    def lengthOfLIS3(self, nums):  # O(nlogn)
         tails = []
-        for i in range(len(nums)):
-            left, right = 0, len(tails)
-            while left < right:
-                mid = (left + right) // 2
-                if tails[mid] < nums[i]:
-                    left = mid + 1
-                else:
-                    right = mid
-            if left == len(tails):
-                tails.append(nums[i])
+        for x in nums:
+            i, j = 0, len(tails)
+            while i != j:   # 二分查找找到左边界
+                m = (i + j) // 2
+                if tails[m] < x:
+                    i = m + 1
+                else:  # x <= tails[m]
+                    j = m
+            print(tails, x)
+            if i == len(tails):
+                tails.append(x)
             else:
-                tails[left] = nums[i]
+                tails[i] = x  # 因为原来的tails[i]肯定 >= x, 所以需要替换
+            print(tails)
         return len(tails)
 
 
+nums = [3,5,6,2,5,4,19,5,6,7,12]
 s = Solution()
-nums = [4,10,4,3,8,9]
-res = s.lengthOfLIS(nums)
+print("lengthOfLIS")
+print(s.lengthOfLIS(nums))
+res = s.lengthOfLIS2(nums)
 print(res)
-=======
-        dp = [0] * len(nums)
-        maxLen = 0
-        for i in range(len(nums)):
-            for j in range(i):
-                if nums[j] < nums[i] and dp[j] + 1 > dp[i]:
-                    dp[i] = dp[j] + 1
-                    maxLen = max(maxLen, dp[i])
-
-        return maxLen
->>>>>>> d967d2d693b36174263935cb8d00091fc38cb68e
+print(s.lengthOfLIS3(nums))
