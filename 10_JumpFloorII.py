@@ -22,4 +22,6 @@ class Solution:
         if number < 2:
             return temp
         return pow(2, number - 1) * 1
-
+s = Solution()
+res = s.jumpFloorII(9)
+print(res)
