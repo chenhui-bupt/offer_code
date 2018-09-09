@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcf89a56-0809-4318-ad01-1293aab6c60d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xiaozhao/alibaba/播放音乐.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xiaozhao/alibaba/自然语言理解.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xiaozhao/jingdong/完全多部图.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xiaozhao/meituan/通过改变后的连续相同子串.py" afterPath="$PROJECT_DIR$/xiaozhao/meituan/通过改变后的连续相同子串.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,7 +49,7 @@
     <SUITE FILE_PATH="coverage/offer_code$AddTwoString.coverage" NAME="AddTwoString Coverage Results" MODIFIED="1524470370923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer_code$51_InversePairs.coverage" NAME="51_InversePairs Coverage Results" MODIFIED="1530520502815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/offer_code$51_InversePairs__1_.coverage" NAME="51_InversePairs (1) Coverage Results" MODIFIED="1523448676596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/offer_code$.coverage" NAME="通过改变后的连续相同子串 Coverage Results" MODIFIED="1536324989603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xiaozhao/meituan" />
+    <SUITE FILE_PATH="coverage/offer_code$.coverage" NAME="最大乘积子串 Coverage Results" MODIFIED="1536326515438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/offer_code$TwoColor.coverage" NAME="TwoColor Coverage Results" MODIFIED="1527146849530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graph" />
     <SUITE FILE_PATH="coverage/offer_code$chess.coverage" NAME="chess Coverage Results" MODIFIED="1523347703092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/campus_recruitment/jingdong" />
     <SUITE FILE_PATH="coverage/offer_code$n.coverage" NAME="n Coverage Results" MODIFIED="1525870426911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xiaozhao" />
@@ -89,11 +87,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="通过改变后的连续相同子串.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="通过改变后的连续相同子串.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xiaozhao/meituan/通过改变后的连续相同子串.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="432">
+              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="最大乘积子串.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/最大乘积子串.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoColor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph/TwoColor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="完全多部图.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xiaozhao/jingdong/完全多部图.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="最大乘积子序列.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/最大乘积子序列.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,51 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="杀手.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaozhao/xunfei/杀手.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="改分数.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaozhao/xunfei/改分数.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="杀手.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xiaozhao/xunfei/杀手.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
               <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="图遍历所有节点的最短路径.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaozhao/meituan/图遍历所有节点的最短路径.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="图遍历所有节点的最短路径.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaozhao/meituan/图遍历所有节点的最短路径.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -187,6 +185,7 @@
       <find>2 3 3</find>
       <find>visited</find>
       <find>\t</find>
+      <find>self.</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -201,9 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LCA.py" />
-        <option value="$PROJECT_DIR$/graph/DirectedCycle.py" />
-        <option value="$PROJECT_DIR$/graph/DepthFirstOrder.py" />
         <option value="$PROJECT_DIR$/graph/TopologicalOrder.py" />
         <option value="$PROJECT_DIR$/graph/ShortestPath.py" />
         <option value="$PROJECT_DIR$/graph/Dijkstra.py" />
@@ -252,6 +248,9 @@
         <option value="$PROJECT_DIR$/xiaozhao/alibaba/播放音乐.py" />
         <option value="$PROJECT_DIR$/xiaozhao/alibaba/自然语言理解.py" />
         <option value="$PROJECT_DIR$/xiaozhao/meituan/通过改变后的连续相同子串.py" />
+        <option value="$PROJECT_DIR$/leetcode/最大乘积子序列.py" />
+        <option value="$PROJECT_DIR$/leetcode/最大乘积子串.py" />
+        <option value="$PROJECT_DIR$/xiaozhao/jingdong/完全多部图.py" />
       </list>
     </option>
   </component>
@@ -338,6 +337,12 @@
               <item name="offer_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="offer_code" type="462c0819:PsiDirectoryNode" />
               <item name="xiaozhao" type="462c0819:PsiDirectoryNode" />
+              <item name="jingdong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="offer_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="offer_code" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaozhao" type="462c0819:PsiDirectoryNode" />
               <item name="meituan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -390,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.通过改变后的连续相同子串">
+  <component name="RunManager" selected="Python.最大乘积子串">
     <configuration name="通过改变后的连续相同子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -427,20 +432,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="杀手" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="最大乘积子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xiaozhao/xunfei" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="offer_code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xiaozhao/xunfei/杀手.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/最大乘积子串.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -501,18 +506,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.通过改变后的连续相同子串" />
-      <item index="1" class="java.lang.String" itemvalue="Python.杀手" />
-      <item index="2" class="java.lang.String" itemvalue="Python.改分数" />
-      <item index="3" class="java.lang.String" itemvalue="Python.播放音乐" />
-      <item index="4" class="java.lang.String" itemvalue="Python.自然语言理解" />
+      <item index="1" class="java.lang.String" itemvalue="Python.改分数" />
+      <item index="2" class="java.lang.String" itemvalue="Python.播放音乐" />
+      <item index="3" class="java.lang.String" itemvalue="Python.自然语言理解" />
+      <item index="4" class="java.lang.String" itemvalue="Python.最大乘积子串" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.通过改变后的连续相同子串" />
-        <item index="1" class="java.lang.String" itemvalue="Python.自然语言理解" />
-        <item index="2" class="java.lang.String" itemvalue="Python.播放音乐" />
-        <item index="3" class="java.lang.String" itemvalue="Python.改分数" />
-        <item index="4" class="java.lang.String" itemvalue="Python.杀手" />
+        <item index="0" class="java.lang.String" itemvalue="Python.最大乘积子串" />
+        <item index="1" class="java.lang.String" itemvalue="Python.通过改变后的连续相同子串" />
+        <item index="2" class="java.lang.String" itemvalue="Python.自然语言理解" />
+        <item index="3" class="java.lang.String" itemvalue="Python.播放音乐" />
+        <item index="4" class="java.lang.String" itemvalue="Python.改分数" />
       </list>
     </recent_temporary>
   </component>
@@ -537,7 +542,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21509972" sideWeight="0.5114449" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21281742" sideWeight="0.48855507" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43409917" sideWeight="0.48855507" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38694075" sideWeight="0.49427754" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -567,36 +572,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/55_TreeDepth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReversedSentence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_DuplicateInArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20_IsNumeric.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -970,8 +945,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xiaozhao/meituan/通过改变后的连续相同子串.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        <state relative-caret-position="432">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/最大乘积子序列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/最大乘积子串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/TwoColor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaozhao/jingdong/完全多部图.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding />
         </state>
       </provider>
