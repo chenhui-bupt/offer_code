@@ -1,8 +1,14 @@
 graph = {0: [1, 5], 1: [], 2: [0, 3], 3: [2, 5], 4: [2, 3], 5: [4]}
 marked = [False] * len(graph)
 onStack = [False] * len(graph)
+
+graph = {1:[2, 3], 2:[], 3:[],  4:[5,6], 5:[], 6:[7], 7:[4]}
+marked = dict(zip(graph.keys(), [False] * len(graph)))
+onStack = dict(zip(graph.keys(), [False] * len(graph)))
+
 cycles = []
 edgeTo = [-1] * len(graph)
+edgeTo = dict(zip(graph.keys(), [-1] * len(graph)))
 hasCycle = False
 
 
