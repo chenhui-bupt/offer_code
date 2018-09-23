@@ -1,52 +1,29 @@
+"""
+出现次数超过N?K的数
+"""
 
-def partial_match_table(s):
-    match_table = [0] * len(s)
-    for i in range(len(s)):
-        tmp1 = []
-        tmp2 = []
-        for j in range(i):
-            tmp1.append(s[: j+1])
-        for j in range(1, i+1):
-            tmp2.append(s[j: i+1])
-        maxLen = 0
-        for tmp in tmp1:
-            if tmp in tmp2 and maxLen < len(tmp):
-                maxLen = len(tmp)
-        match_table[i] = maxLen
-    return match_table
-
-def getNext(s):
-    next = [0] * len(s)
-    i, j = 1, 0
-    while i < len(s):
-        if j == 0 or s[i] == s[j]:
-            i += 1
-            j += 1
-            if i < len(s):
-                next[i] = j
+def moreThanN_K(nums, k):
+    hashMap = {}
+    for i in range(len(nums)):
+        if nums[i] in hashMap:
+            hashMap[nums[i]] += 1
         else:
-            j = next[j]
-    return next
+            if len(hashMap) == k-1:
+                for key in list(hashMap.keys()):
+                    hashMap[key] -= 1
+                    if hashMap[key] == 0:
+                        hashMap.pop(key)
+            else:
+                hashMap[nums[i]] = 1
+    for key in hashMap:
+        hashMap[key] = 0
+    for num in nums:
+        if num in hashMap:
+            hashMap[num] += 1
+    res = [key for key, val in hashMap.items() if val > len(nums)//k]
+    return res
 
-def KMP(s1, s2):
-    match_table = partial_match_table(s2)
-    i, j = 0, 0
-    while i < len(s1):
-        if j == len(s2):
-            return True
-        if s1[i] == s2[j]:
-            i += 1
-            j += 1
-        elif j == 0:
-            i += 1
-        else:
-            j = match_table[j-1]
-    return False
-
-
-
-s1 = "BBC ABCDAB ABCDABCDABDE"
-s2 = "ABCDABD"
-print(partial_match_table(s2))
-print(getNext(s2))
-print(KMP(s1, s2))
+arr = [1 ,2 ,3 ,3 ,5 ,2 ,2 ,3 ,3 ,3 ,5 ,6 ,2 ,2 ,2 ,3 , 3]
+k = 3
+res = moreThanN_K(arr, k)
+print(res)

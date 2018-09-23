@@ -22,7 +22,7 @@ def dfs(root, parentVal, res):
     if root.val == parentVal + 1:
         down = max(leftDown, rightDown) + 1
     elif root.val == parentVal - 1:
-        up += max(leftUp, rightUp) + 1
+        up = max(leftUp, rightUp) + 1
     return up, down
 
 
